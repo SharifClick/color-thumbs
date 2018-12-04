@@ -1,0 +1,18 @@
+{
+  "name": "color-thumbs",
+  "version": "1.0.0",
+  "description": "pick dominant colors from uploaded image",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "color-thumbs"
+  ],
+  "author": {
+    "name": "Sharif Ahmed",
+    "email": "me.sharifahmed@gmail.com",
+    "url": "http://sharifahmed.me"
+  },
+  "license": "MIT"
+}
