@@ -1,1 +1,1 @@
-export default './dist/color-thumbs';
+export { default } from './dist/color-thumbs';
