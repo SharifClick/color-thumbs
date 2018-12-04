@@ -43,9 +43,9 @@ class CanvasImage {
   }
 }
 
-class ColorSwatches {
+class ColorThumbs {
 
-  getHexSwatches(sourceImage, colorCount, quality) {
+  getHexThumbs(sourceImage, colorCount, quality) {
     const palettes = this.getPalette(sourceImage, colorCount, quality);
     return palettes.map((palette) => `#${palette.map((v) => parseInt(v).toString(16)).join('')}`)
   }
@@ -623,3 +623,5 @@ var MMCQ = ((() => {
     quantize
   };
 }))();
+
+export default ColorThumbs;
